@@ -26,6 +26,7 @@ export default function Navbar() {
   );
 
   const navLinks = [
+    { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
     { name: 'Events', href: '#events' },
     { name: 'Social', href: '#social' },
@@ -53,10 +54,13 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <button className="flex items-center gap-2 px-6 py-2 bg-brand text-black rounded-full text-xs font-bold uppercase tracking-widest hover:scale-105 active:scale-95 transition-transform">
+          <a
+            href="#contact"
+            className="flex items-center gap-2 px-6 py-2 bg-brand text-black rounded-full text-xs font-bold uppercase tracking-widest hover:scale-105 active:scale-95 transition-transform"
+          >
             Let's Talk
             <ArrowUpRight className="w-3 h-3" />
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}

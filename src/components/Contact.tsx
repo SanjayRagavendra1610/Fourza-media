@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">Email Us</div>
-                  <div className="text-xl font-bold flex items-center gap-2">hello@fourzadigital.com <ArrowUpRight className="w-4 h-4 text-brand" /></div>
+                  <div className="text-xl font-bold flex items-center gap-2">fourzamedia@gmail.com <ArrowUpRight className="w-4 h-4 text-brand" /></div>
                 </div>
               </div>
               
@@ -35,7 +35,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">Call Us</div>
-                  <div className="text-xl font-bold">+1 (555) FOURZA-01</div>
+                  <div className="text-xl font-bold">+91 78451 16624</div>
+                </div>
+                <div>
+                  <div className="text-[10px] font-bold uppercase tracking-widest text-white/40 mb-1">Call Us</div>
+                  <div className="text-xl font-bold">+91 88838 81200</div>
                 </div>
               </div>
             </div>
@@ -77,29 +81,6 @@ export default function Contact() {
           </div>
         </div>
         
-        {/* Footer */}
-        <div className="mt-32 pt-20 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-10">
-          <div className="flex items-center gap-3">
-             <img src="/logo.png" alt="Fourza Full Logo" className="h-10 object-contain brightness-0 invert" referrerPolicy="no-referrer" />
-          </div>
-          
-          <div className="flex gap-8 text-[10px] font-bold uppercase tracking-widest text-white/40">
-            <a href="#" className="hover:text-brand transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-brand transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-brand transition-colors">Cookie Policy</a>
-          </div>
-          
-          <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand hover:text-black transition-all"><Instagram className="w-4 h-4" /></a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand hover:text-black transition-all"><Twitter className="w-4 h-4" /></a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand hover:text-black transition-all"><Linkedin className="w-4 h-4" /></a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand hover:text-black transition-all"><Github className="w-4 h-4" /></a>
-          </div>
-        </div>
-        
-        <div className="mt-10 text-center text-[10px] font-bold uppercase tracking-widest text-white/20">
-          © {new Date().getFullYear()} Fourza Digital Marketing. All Rights Reserved.
-        </div>
       </div>
     </section>
   );
